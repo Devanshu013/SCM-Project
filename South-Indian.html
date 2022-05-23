@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North-Indian Menu</title>
+    <link rel="stylesheet" href="stylesn.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="cart.js" defer></script>
+    <script src="cart2.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="cart3.js" defer></script>
+</head>
+<body>
+    <nav>
+        <br>
+        <br>
+        <a href="Front end.html">
+            <img src="homepagelogo.png" width="40px">
+        </a>
+        <a href="restaurant.html">
+            <img src="previous.png" width="45px">
+        </a>
+        <br>
+        <hr>
+        <br>
+    <div class="wrapper">
+        <div class="title">
+            <h4><span>Fresh Food For Good Health</span>Our Menu</h4>
+        </div>
+        <div class="menu">
+            <div class="single-menu">
+                <img src="vada.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-1" onclick="funcm1()"><span id="s1">vada</span></button><span style="color:red;" id="n1">&#X20B9; 75</span></h4>
+                <br>
+                <button id="sub1"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c1">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus1">+</button>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="idli.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-2" onclick="funcm2()"><span id="s2">Idli</span></button><span style="color:red;" id="n2">  &#X20B9;45</span></h4>
+                <br>
+                <button id="sub2"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c2">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus2">+</button>
+                </div>
+            </div><div class="single-menu"><a href="map.html"></a>
+                <img src="upma.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-3" onclick="funcm3()"><span id="s3">upma</span></button><span style="color:red;" id="n3">  &#X20B9;95</span></h4>
+                <br>
+                <button id="sub3"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c3">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus3">+</button>
+                </div>
+            </div><div class="single-menu">
+                <img src="dosa.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-4" onclick="funcm4()"><span id="s4">dosa</span></button><span style="color:red;" id="n4">  &#X20B9;145</span></h4>
+                <br>
+                <button id="sub4"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c4">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus4">+</button>
+                </div>
+            <!-- </div><div class="single-menu">
+                <img src="friedrice.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-5" onclick="funcm5()"><span id="s5">Fried-Rice</span></button><span style="color:red;" id="n5">  &#X20B9;115</span></h4>
+                <br>
+                <button id="sub5"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c5">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus5">+</button>
+                </div>
+            </div><div class="single-menu">
+                <img src="samosa.jpg" alt="food">
+                <div class="menu-content">
+                <h4><button id="ni-d-6" onclick="funcm6()"><span id="s6">Aloo Samosa</span></button><span style="color:red;" id="n6">  &#X20B9;20</span></h4>
+                <br>
+                <button id="sub6"   >-</button>&nbsp;&nbsp;&nbsp;&nbsp;<span id="c6">1</span>&nbsp;&nbsp;&nbsp;&nbsp;<button id="plus6">+</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+     <!--cart-->
+
+     <button class="open-button" onclick="openForm()">view cart</button>
+     <div class="chat-popup" id="myForm">
+         <form action="/action_page.php" class="form-container">
+           <h1 style="font-weight: 900; text-align: center; color: blueviolet;"><U>CART</U></h1>
+       
+           <label for="msg"><h3><b style="color: red;">KINDLY CHECK YOUR ORDER AND CLICK ON BUY TO ORDER YOUR ITEMS </b></h3></label>
+           <HR>
+           <div class="col-25">
+             <div class="container">
+               <h4><b>Cart items</b>
+                 <span class="price" style="color:black">
+                   <i class="fa fa-shopping-cart"></i>
+                   <span id="nitems"><b></b></span>
+                 </span>
+               </h4>
+               <HR>
+               <p><span id="p1"></span> <span class="price" id="p1p"></span></p>
+               <p><span id="p2"></span> <span class="price" id="p2p"></span></p>
+               <p><span id="p3"></span> <span class="price" id="p3p"></span></p>
+               <p><span id="p4"></span> <span class="price" id="p4p"></span></p>
+               <p><span id="p5"></span> <span class="price" id="p5p"></span></p>
+               <p><span id="p6"></span> <span class="price" id="p6p"></span></p>
+               <p><span id="p7"></span> <span class="price" id="p7p"></span></p>
+               <p><span id="p8"></span> <span class="price" id="p8p"></span></p>
+               <p><span id="p9"></span> <span class="price" id="p9p"></span></p>
+               <hr>
+               <!-- <p><b>Total:</b> <span class="price" style="color:black" id="total"><b></b></span></p> -->
+               <br>
+               <!-- <textarea rows="2" cols="5" placeholder="enter your address" required id="order-address"></textarea>
+             -->
+             mobile number:<input type="text" id="mbn">
+             </div>
+ 
+           </div>
+           <button type="submit" class="btn" onclick="send_handle()" >Buy</button>
+           <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+         </form>
+       </div>
+</body>
+</html>

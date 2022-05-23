@@ -1,0 +1,136 @@
+fieldset:hover{
+    border-color: red;
+}
+body{
+    background-color:#bb99b7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    background-color: white; color: black;
+    width: auto;
+    height: auto;
+   
+}
+
+#i1{
+    width: 25vw;
+    height: 30vh;
+    display: inline-block;
+
+}
+#name1{
+    display: inline-block;
+    position: relative;
+    left: 6vw;
+    bottom: 25vh;
+    font-size:xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+
+
+}
+#txt1{
+    display: inline-block;
+    position: relative;
+    right: 21vw;
+    bottom:17vh;
+    font-size:x-large;
+    font-weight: 500;
+    color: red;
+}
+#btn1{
+    display: inline-block;
+    position:relative;
+    left: 10vw;
+    bottom: 10vh;
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: #4caf84;
+}
+#i2{
+    width: 25vw;
+    height: 30vh;
+    display: inline-block;
+
+}
+#name2{
+    display: inline-block;
+    position: relative;
+    left: 6vw;
+    bottom: 25vh;
+    font-size:xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+
+
+}
+#txt2{
+    display: inline-block;
+    position: relative;
+    right: 16vw;
+    bottom:17vh;
+    font-size:x-large;
+    font-weight: 500;
+    color: red;
+}
+#btn2{
+    display: inline-block;
+    position:relative;
+    left: 18vw;
+    bottom: 10vh;
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: #4caf84;
+}
+#i3{
+    width: 25vw;
+    height: 30vh;
+    display: inline-block;
+}
+#name3{
+    display: inline-block;
+    position: relative;
+    left: 6vw;
+    bottom: 25vh;
+    font-size:xx-large;
+    font-weight: 900;
+    text-decoration: underline;
+
+
+}
+#txt3{
+    display: inline-block;
+    position: relative;
+    right: 10vw;
+    bottom:17vh;
+    font-size:x-large;
+    font-weight: 500;
+    color: red;
+}
+#btn3{
+    display: inline-block;
+    position:relative;
+    left: 26vw;
+    bottom: 10vh;
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#btn3:hover{
+    background-color: #4caf84;
+}
